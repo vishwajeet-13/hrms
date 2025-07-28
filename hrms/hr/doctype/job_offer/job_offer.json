@@ -32,6 +32,7 @@
    "fieldname": "job_applicant",
    "fieldtype": "Link",
    "label": "Job Applicant",
+   "link_filters": "[[\"Job Applicant\",\"status\",\"!=\",\"Rejected\"]]",
    "options": "Job Applicant",
    "print_hide": 1,
    "reqd": 1
@@ -169,10 +170,11 @@
  ],
  "is_submittable": 1,
  "links": [],
- "modified": "2024-07-08 15:53:30.761581",
- "modified_by": "Administrator",
+ "modified": "2025-07-28 15:55:19.228911",
+ "modified_by": "test@mail.com",
  "module": "HR",
  "name": "Job Offer",
+ "naming_rule": "Expression (old style)",
  "owner": "Administrator",
  "permissions": [
   {
@@ -192,6 +194,7 @@
    "write": 1
   }
  ],
+ "row_format": "Dynamic",
  "show_name_in_global_search": 1,
  "sort_field": "creation",
  "sort_order": "DESC",
